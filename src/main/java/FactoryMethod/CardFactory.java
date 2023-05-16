@@ -8,6 +8,8 @@ public class CardFactory {
                 return new Platinum();
             case "Gold":
                 return new Titanium();
+            case "MoneyBank":
+                return new MoneyBank();
             default:
                 return null;
         }
